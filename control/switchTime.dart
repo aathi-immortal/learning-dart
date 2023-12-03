@@ -1,9 +1,12 @@
+import 'dart:ffi';
+
 void main(List<String> args) {
   int date = 3;
+  var array = new Array(34);
 
   var day;
   switch (date) {
-    case 1  :
+    case 1:
       {
         day = "sunday";
       }
